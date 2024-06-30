@@ -6,6 +6,12 @@ $(document).ready(function(){
     })
 });
 
+$(document).ready(function(){
+    $("#guardarFavoritos").click(function(){
+        alert("Receta agregada a favoritos exitosamente")
+    })
+});
+
 /* Cambio de color con dblclick selector por etiqueta */
 
 $(document).ready(function(){
